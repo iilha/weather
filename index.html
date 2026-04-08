@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
-  <meta name="theme-color" content="#1976d2">
+  <meta name="theme-color" content="#0288D1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <title>Weather</title>
@@ -547,7 +547,7 @@ let worldExpanded = false;
 function initialize() {
   console.log('[Weather] Initializing...');
 
-  const savedLang = localStorage.getItem('ubike-lang');
+  const savedLang = localStorage.getItem('weather-lang');
   if (savedLang) isZh = savedLang === 'zh';
 
   populateTaiwanSelect();
@@ -891,7 +891,7 @@ function toggleWorldCities() {
 // ============================================================
 function toggleLang() {
   isZh = !isZh;
-  localStorage.setItem('ubike-lang', isZh ? 'zh' : 'en');
+  localStorage.setItem('weather-lang', isZh ? 'zh' : 'en');
   updateUI();
   // Re-render with new language
   populateTaiwanSelect();
