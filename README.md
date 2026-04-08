@@ -1,3 +1,5 @@
+English | [繁體中文](README_zh.md)
+
 # Weather
 
 Current weather conditions and 7-day forecast powered by Open-Meteo API.
