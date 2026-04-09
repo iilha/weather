@@ -34,7 +34,6 @@ The app features current weather cards, scrollable 7-day forecast, temperature c
 
 ### Navigation Header
 - Language toggle button (EN/中文)
-- Links to other apps (YouBike, MRT, Earthquake, Oil)
 - Active state highlighting
 
 ### Location Bar
