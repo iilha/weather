@@ -1,0 +1,9 @@
+{
+  "appId": "weather",
+  "appName": "uweather  Monitor",
+  "apiBase": "https://api.transport-pwa.com/weather",
+  "siteBase": "https://weather.transport-pwa.com/",
+  "supportEmail": "transport-pwa@googlegroups.com",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=tw.pwa.weather",
+  "storagePrefix": "weather_"
+}
