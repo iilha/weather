@@ -1,7 +1,7 @@
 {
   "appId": "weather",
   "appName": "uweather  Monitor",
-  "apiBase": "https://api.transport-pwa.com/weather",
+  "apiBase": "https://app.octileapp.workers.dev",
   "siteBase": "https://weather.transport-pwa.com/",
   "workerUrl": "https://api.octile.eu.cc",
   "eventsUrl": "https://api.octile.eu.cc/events",
