@@ -1094,9 +1094,10 @@ function toggleWorldCities() {
 // ============================================================
 // LANGUAGE
 // ============================================================
-function toggleLang() {
+async function toggleLang() {
   isZh = !isZh;
   localStorage.setItem('weather-lang', isZh ? 'zh' : 'en');
+  await applyLanguage(isZh ? 'zh' : 'en');
   updateUI();
   // Re-render with new language
   populateTaiwanSelect();
