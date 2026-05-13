@@ -2,7 +2,7 @@
   "appId": "weather",
   "appName": "uweather  Monitor",
   "apiBase": "https://api.octile.eu.cc",
-  "siteBase": "https://weather.transport-pwa.com/",
+  "siteBase": "https://iilha.github.io/weather/",
   "features": {
     "events": true
   },
